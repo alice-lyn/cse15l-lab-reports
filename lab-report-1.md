@@ -69,7 +69,15 @@
 
 ## cat 
 1. no argument:
-   * 
+   ```
+   [user@sahara ~/lecture1]$ cat
+   pwd
+   pwd
+   ```
+   * working directory is /lecture1
+   * at first, the output was blank, but when i typed 'pwd' it returned the exact same word. this is because cat returns the content of a file, but there was no argument so it returned blank
+   * this is not an error (unsure)
+     
 2. to a directory:
    * 
 3. to a file:
