@@ -79,6 +79,32 @@
    * this is not an error (unsure)
      
 2. to a directory:
-   * 
+   ```
+   [user@sahara ~/lecture1]$ cat messages
+   cat: messages: Is a directory
+   [user@sahara ~/lecture1]$ pwd
+   /home/lecture1
+   ```
+   * working directory is /lecture1
+   * I got this output because cat returns the content of a file but the argument was a directory 
+   * the output is an error since the argument is not a file
+     
 3. to a file:
-   * 
+   ```
+   [user@sahara ~/lecture1]$ cat Hello.java
+   import java.io.IOException;
+   import java.nio.charset.StandardCharsets;
+   import java.nio.file.Files;
+   import java.nio.file.Path;
+   
+   public class Hello {
+     public static void main(String[] args) throws IOException {
+       String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+       System.out.println(content);
+     }
+   }[user@sahara ~/lecture1]$ pwd
+   /home/lecture1
+   ```
+   * working directory is /lecture1
+   * I got this output because cat command returned the content of the file in the argument
+   * this is not an error 
