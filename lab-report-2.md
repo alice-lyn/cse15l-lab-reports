@@ -16,7 +16,7 @@ Image: Hello
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of num changed from **0** to **1**.
-  The value of str changed from an empty string to **1. Hello**, with a new line concatenated at the end.  
+  The value of str changed from an empty string to **1. Hello** /n.  
 
 
 Image: How are you
@@ -29,9 +29,7 @@ Image: How are you
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of num changed from **1** to **2**.
-  The value of str changed from **1. Hello** to
-  **1. Hello**
-  **2. How are you**
+  The value of str changed from **1. Hello** to **1. Hello** /n **2. How are you ** /n
 
 
 ## Part 2
