@@ -34,11 +34,11 @@ Image: How are you
 
 ## Part 2
 - The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
-  ![Private](Private.png)
+  ![Private](Public.png)
 - The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
-  ![Public](Public.png)
+  ![Public](Private.png)
 - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
   ![Terminal](Terminal.png)
   
 ## Part 3
-- Pretty much everything we learned in lab in week 2 and 3 are new to me. 
+- Pretty much everything we learned in labs in week 2 and 3 is new to me. I learned how to log in to a connect to a server from a remote computer, and how to build and create a server by implementing URLHandler interface. I also learned how to set up SSH keys so that I don't have to type the password out every time when I need to frequently log in to a remote account. Moreover, I learned about some important commands such as 'ssh', 'curl', 'mkdir', 'scp', and so on. 
