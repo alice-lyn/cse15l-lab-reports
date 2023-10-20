@@ -12,7 +12,7 @@ Image: Hello
   The String handleRequest(URI url) method was called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  The argument to the method is **4000**. The value of str is **Hello**, and the value of num is **1**.
+  The argument to the method is **http://localhost:4000**. The value of str is **Hello**, and the value of num is **1**.
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of num changed from **0** to **1**.
@@ -25,7 +25,7 @@ Image: How are you
   The String handleRequest(URI url) method was called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  The argument to the method is **4000**. The value of str is **How are you**, and the value of num is **2**.
+  The argument to the method is **http://localhost:4000**. The value of str is **How are you**, and the value of num is **2**.
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of num changed from **1** to **2**.
