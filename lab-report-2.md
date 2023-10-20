@@ -33,6 +33,12 @@ Image: How are you
 
 
 ## Part 2
-
-
+- The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+  ![Private](Private.png)
+- The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+  ![Public](Public.png)
+- A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+  ![Terminal](Terminal.png)
+  
 ## Part 3
+- Pretty much everything we learned in lab in week 2 and 3 are new to me. 
