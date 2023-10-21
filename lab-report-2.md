@@ -2,11 +2,13 @@
 
 ## Part 1
 
-Image: Code
+
+- Image: Code
 ![Code](Code.png)
 
 
-Image: Hello
+
+- Image: Hello
 ![Hello](Hello.png)
 - Which methods in your code are called?
   The String handleRequest(URI url) method was called.
@@ -19,7 +21,8 @@ Image: Hello
   The value of str changed from an empty string to **1. Hello** /n.  
 
 
-Image: How are you
+
+- Image: How are you
 ![Howareyou](Howareyou.png)
 - Which methods in your code are called?
   The String handleRequest(URI url) method was called.
