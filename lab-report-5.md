@@ -21,9 +21,12 @@
 
 
 **4. The setup** 
+
 - The file & directory structure needed
 >![step4a](step4a.png) 
+
 - The contents of each file before fixing the bug
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -70,10 +73,13 @@ class ListExamples {
 ```
 
 - The full command line (or lines) you ran to trigger the bug
+
 ```
 aliceee@Alices-Air-2 lab7 % bash test.sh
 ```
+
 the content of test.sh: 
+
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
